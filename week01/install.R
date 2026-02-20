@@ -9,4 +9,4 @@ BiocManager::install(c("GenomicRanges", "rtracklayer", "EnrichedHeatmap", "Annot
                        "universalmotif", "MotifDb", "TFBSTools", "Biostrings", "PWMEnrich",
                        "Rsubread","Rfastp"))
 BiocManager::install(c("Bioconductor/BiocFileCache", "chromVAR"))
-BiocManager::install("ETHZ-INS/epiwraps")
+BiocManager::install("ETHZ-INS/epiwraps", ref="devel")
